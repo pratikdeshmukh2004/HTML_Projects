@@ -1,0 +1,162 @@
+.header{
+	background-color: #F5EFEF;
+	position: fixed;
+	width: 100%;
+	margin: -15px -5px 0px -10px;
+
+}
+.name{
+	padding-left: 1%;
+	font-family: Lobster;
+}
+.navbar{
+	float: right;
+	display: block;
+	text-align: center;
+	padding: 14px 20px;
+	text-decoration: none;
+	font-size: 22px;
+}
+.navbar:hover{
+	background-color: #ddd;
+	color: black;
+}
+#baimg{
+	margin-top: -10%;
+	width: 101.5%;
+	margin-left: -20px;
+	padding-bottom: 10%;
+}
+.about h1{
+	font-weight: 900;
+	font-size: 50px;
+	letter-spacing: 0.1px;
+	background-color: #c90000;
+	color: white;
+	margin: 0% 38% 2% 38%;
+	padding: 30px;
+	border:3px solid white;
+	outline: 3px solid #c90000;
+}
+.about pre{
+	font-size: 32px;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+}
+.about a{
+	text-decoration: none;
+
+}
+.about c{
+	color: #c90000;
+}
+.contact img{
+	width: 101.5%;
+	margin-left: -20px;
+}
+.contact h1{
+	font-weight: 900;
+	font-size: 50px;
+	letter-spacing: 0.1px;
+	background-color: #c90000;
+	color: white;
+	margin: 10% 40% 2% 40%;
+	padding: 30px;
+	border:3px solid white;
+	outline: 3px solid #c90000;
+}
+.contact pre{
+	font-size: 22px;
+	text-align: center;
+	padding: 100px 0px 100px 0px;
+}
+.contact  c{
+	color: #c90000;
+}
+.contact2{
+	margin-left: 30%;
+}
+input{
+	padding: 20px;
+	width: 25%;
+	font-size: 20px;
+	margin-top: 1%;
+}
+.text{
+	margin: -12% 0% 0% 52%;
+}
+.text textarea{
+
+	height: 211px;
+	width: 400px;
+	font-size: 20px;
+}
+input[type="Submit"]{
+	margin-left: 29.5%;
+	width: 44.5%;
+	background-color: #c90000;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.last{
+	padding: 10px;
+	background-color: #0c0c0c;
+	font-weight: 500;
+	font-size: 30px;
+	text-align: center;
+	width: 100%;
+	margin: -15px -5px 0px -10px;
+}
+.last img{
+	border-radius: 7%;
+	width: 50px;
+}
+
+@media screen and (max-width: 1440px){
+	.header{
+		width: 100%;
+		margin: -10px -10px 0px -10px;
+		padding: 20px;
+
+	}
+	.name{
+		font-size: 5vw;
+		text-align: center;
+	}
+	.navbar{
+		visibility: hidden;
+	}
+	#baimg{
+		width: 112%;
+		margin-top: 0px;
+	}
+	.about h1{
+		margin: 0% 32% 2% 32%;
+	}
+	.contact h1{
+		margin: 0% 32% 2% 32%;	
+	}
+	.contact2{
+		margin-left: 2px;
+		margin-top: 2%;
+	}
+	input{
+		/*margin-top: 2%;*/
+		width: 90%;
+		height: 20px;
+		margin-top: 2%;
+	}
+	.text{
+	margin: 5% 0% 0% 3%;
+	}
+	.contact textarea{
+		width: 90%;
+		height: 200px;
+	}
+	input[type="Submit"]{
+	margin-left: 0%;
+	width: 100%;
+	padding: 5%;
+	
+}
+}
