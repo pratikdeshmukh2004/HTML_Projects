@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login-Signup</title>
+<style>
+	body{
+		background-image: url(https://i.udemycdn.com/course/750x422/153600_76a9_9.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.maindiv{
+		background-color: black;
+		margin: 5% 34% 0% 34%;
+		border: 1px solid red;
+	}
+	.header{
+		color: white;
+		display: flex;
+		justify-content: space-between;
+		background-color: red;
+	}
+	.signup{
+		cursor: pointer;
+		flex-direction: flex-end;
+		background-color: green;
+		padding: 0px 17%;
+		border-radius: 100px 0px 0px 0px;
+	}
+	.login{
+		cursor: pointer;
+		flex-direction: flex-start;
+		background-color: red;
+		padding: 0px 16%;
+	}
+	.center{
+		color: white;
+		padding-left: 50px;
+		padding-bottom: 50px;
+	}
+	input[type="text"]{
+		width: 300px;
+		height: 30px;
+		font-size: 20px;
+	}
+	input[type="password"]{
+		width: 300px;
+		height: 30px;
+		font-size: 20px;
+	}
+	input[type="email"]{
+		width: 300px;
+		height: 30px;
+		font-size: 20px;
+	}
+	input{
+		margin-left: 30px;
+	}
+	input[type="submit"]{
+		width: 300px;
+		height: 60px;
+		font-size: 20px;
+		margin-top: 50px;
+		background-color: red;
+		border-color: red;
+		border-radius: 5px;
+		cursor: pointer;
+		font-size: 30px;
+	}
+	c{
+		color: red;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+	}
+@media screen and (max-width: 1150px){
+	.maindiv{
+		margin: 5% 5% 0% 5%;
+	}
+	.login{
+		padding: 2% 15%;
+	}
+	.signup{
+		padding: 2% 20%;
+	}
+	.center{
+		padding-left: 60px;
+	}
+	.center h2{
+		font-size: 50px;
+		margin-left: 30px;
+	}
+	input[type="text"]{
+		width: 500px;
+		height: 70px;
+		font-size: 50px;
+	}
+	input[type="password"]{
+		width: 500px;
+		height: 70px;
+		font-size: 50px;
+	}
+	input[type="email"]{
+		width: 500px;
+		height: 70px;
+		font-size: 50px;
+	}
+	input{
+		margin-left: 80px;
+	}
+	input[type="submit"]{
+		width: 500px;
+		height: 80px;
+		font-size: 45px;
+		margin-top: 50px;
+	}
+
+}
+</style>
+</head>
+<body bgcolor="#e5e5e5">
+<div class="maindiv">
+	<div class="header">
+	<div class="login">
+		<a href="login.html"><h2>LOG-IN</h2></a>
+	</div>
+	<div class="signup">
+		<a href="signup.html"><h2>SIGN-UP</h2></a>
+	</div>
+	</div>
+	<div class="center">
+		<form action="http://localhost:3000/signup">
+		<h2><c>✔</c> Username</h2><input type="text" name="username" placeholder="username" required>
+		<h2><c>✔</c> Email</h2><input type="email" name="email" placeholder="Email" required><br>
+		<h2><c>✔</c> Password</h2><input type="password" name="password" placeholder="Password" required><br>
+		<input type="submit" value="Signup">
+		</form>
+	</div>
+</div>
+</body>
+</html>
